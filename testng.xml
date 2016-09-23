@@ -2,7 +2,7 @@
 
 	<tests>
 		
-		 <test name="Windows+Firefox1 Test">
+		<!--  <test name="Windows+Firefox1 Test">
 			<parameters>
 				<parameter name="platform" value="Windows" />
 				<parameter name="browser" value="Firefox" />
@@ -10,8 +10,8 @@
 			<classes>
 				<class name="demo.SeGridTest" />
 			</classes>
-		</test>
-		<!-- <test name="Windows+Chrome1 Test">
+		</test> -->
+		<test name="Windows+Chrome1 Test">
 			<parameters>
 				<parameter name="platform" value="Windows" />
 				<parameter name="browser" value="Chrome"/>
@@ -20,7 +20,7 @@
 				<class name="demo.SeGridTest" />
 			</classes>
 		</test>
-		  <test name="Windows+Safari Test">
+		  <!-- <test name="Windows+Safari Test">
 			<parameters>
 				<parameter name="platform" value="Windows" />
 				<parameter name="browser" value="Safari" />
