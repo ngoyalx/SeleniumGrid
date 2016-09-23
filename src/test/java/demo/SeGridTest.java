@@ -2,7 +2,6 @@ package demo;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -61,6 +60,7 @@ public class SeGridTest {
 	weight.sendKeys("80");
 	WebElement calculateButton = driver.findElement(By.id("Calculate"));
 	calculateButton.click();
+	Thread.sleep(15000);
 
 	try {
 

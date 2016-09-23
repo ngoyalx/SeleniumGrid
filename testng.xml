@@ -1,34 +1,42 @@
-<suite name="Parallel Tests" verbose="1" thread-count="4"
-	parallel="tests">
+<suite name="Parallel Tests" verbose="1" thread-count="4" parallel="tests">
 
 	<tests>
 		
-		 <test name="Mac+Firefox Test">
+		 <test name="Windows+Firefox1 Test">
 			<parameters>
-				<parameter name="platform" value="Mac" />
+				<parameter name="platform" value="Windows" />
 				<parameter name="browser" value="Firefox" />
 			</parameters>
 			<classes>
 				<class name="demo.SeGridTest" />
 			</classes>
-		</test> 
-		 <test name="Mac+Chrome Test">
+		</test>
+		<!-- <test name="Windows+Chrome1 Test">
 			<parameters>
-				<parameter name="platform" value="Mac" />
-				<parameter name="browser" value="Chrome" />
+				<parameter name="platform" value="Windows" />
+				<parameter name="browser" value="Chrome"/>
 			</parameters>
 			<classes>
 				<class name="demo.SeGridTest" />
 			</classes>
 		</test>
-		<test name="Mac+Safari Test">
+		  <test name="Windows+Safari Test">
 			<parameters>
-				<parameter name="platform" value="Mac" />
+				<parameter name="platform" value="Windows" />
 				<parameter name="browser" value="Safari" />
 			</parameters>
 			<classes>
 				<class name="demo.SeGridTest" />
 			</classes>
 		</test>
+			<test name="Windows+IE Test">
+			<parameters>
+				<parameter name="platform" value="Windows" />
+				<parameter name="browser" value="Internet Explorer" />
+			</parameters>
+			<classes>
+				<class name="demo.SeGridTest" />
+			</classes>
+		</test> -->
 	</tests>
 </suite>
